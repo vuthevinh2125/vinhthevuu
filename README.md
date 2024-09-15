@@ -52,7 +52,6 @@
             </tr>
           </tbody></table>
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-
     <tr onmouseout="nerfcasting_stop()" onmouseover="nerfcasting_start()">
       <td style="padding:20px;width:25%;vertical-align:middle">
         <div class="one">
@@ -66,7 +65,6 @@
           function nerfcasting_start() {
             document.getElementById('nerfcasting_image').style.opacity = "1";
           }
-
           function nerfcasting_stop() {
             document.getElementById('nerfcasting_image').style.opacity = "0";
           }
@@ -77,8 +75,7 @@
         <a href="https://nerf-casting.github.io/">
           <span class="papertitle">NeRF-Casting: Improved View-Dependent Appearance with Consistent Reflections</span>
         </a>
-        <br>
-				
+        <br>				
         <a href="https://dorverbin.github.io/">Dor Verbin</a>,
         <a href="https://pratulsrinivasan.github.io/">Pratul Srinivasan</a>,
 				<a href="https://phogzone.com/">Peter Hedman</a>,
@@ -98,8 +95,6 @@
         </p>
       </td>
     </tr>
-
-
     <tr onmouseout="flash_cache_stop()" onmouseover="flash_cache_start()">
       <td style="padding:20px;width:25%;vertical-align:middle">
         <div class="one">
@@ -113,7 +108,6 @@
           function flash_cache_start() {
             document.getElementById('flash_cache_image').style.opacity = "1";
           }
-
           function flash_cache_stop() {
             document.getElementById('flash_cache_image').style.opacity = "0";
           }
@@ -144,9 +138,6 @@
         </p>
       </td>
     </tr>
-
-
-
     <tr onmouseout="nuvo_stop()" onmouseover="nuvo_start()">
       <td style="padding:20px;width:25%;vertical-align:middle">
         <div class="one">
@@ -160,7 +151,6 @@
           function nuvo_start() {
             document.getElementById('nuvo_image').style.opacity = "1";
           }
-
           function nuvo_stop() {
             document.getElementById('nuvo_image').style.opacity = "0";
           }
@@ -191,8 +181,6 @@
         </p>
       </td>
     </tr>
-
-
     <tr onmouseout="cat3d_stop()" onmouseover="cat3d_start()" bgcolor="#ffffd0">
       <td style="padding:20px;width:25%;vertical-align:middle">
         <div class="one">
@@ -206,7 +194,6 @@
           function cat3d_start() {
             document.getElementById('cat3d_image').style.opacity = "1";
           }
-
           function cat3d_stop() {
             document.getElementById('cat3d_image').style.opacity = "0";
           }
@@ -227,7 +214,6 @@
         <a href="https://pratulsrinivasan.github.io/">Pratul P. Srinivasan</a>,
 				<strong>Jonathan T. Barron</strong>,
         <a href="https://poolio.github.io/">Ben Poole</a>*
-
         <br>
         <em>arXiv</em>, 2024
         <br>
@@ -240,8 +226,6 @@
         </p>
       </td>
     </tr>
-
-
     <tr onmouseout="bog_stop()" onmouseover="bog_start()">
       <td style="padding:20px;width:25%;vertical-align:middle">
         <div class="one">
@@ -255,7 +239,6 @@
           function bog_start() {
             document.getElementById('bog_image').style.opacity = "1";
           }
-
           function bog_stop() {
             document.getElementById('bog_image').style.opacity = "0";
           }
@@ -291,7 +274,6 @@
         </p>
       </td>
     </tr>
-
     <tr onmouseout="smerf_stop()" onmouseover="smerf_start()">
       <td style="padding:20px;width:25%;vertical-align:middle">
         <div class="one">
@@ -305,7 +287,6 @@
           function smerf_start() {
             document.getElementById('smerf_image').style.opacity = "1";
           }
-
           function smerf_stop() {
             document.getElementById('smerf_image').style.opacity = "0";
           }
@@ -339,9 +320,6 @@
         </p>
       </td>
     </tr>
-	
-
-
     <tr onmouseout="internerf_stop()" onmouseover="internerf_start()">
       <td style="padding:20px;width:25%;vertical-align:middle">
         <div class="one">
@@ -354,7 +332,6 @@
           function internerf_start() {
             document.getElementById('internerf_image').style.opacity = "1";
           }
-
           function internerf_stop() {
             document.getElementById('internerf_image').style.opacity = "0";
           }
@@ -395,7 +372,6 @@
         function eclipse_start() {
           document.getElementById('eclipse_image').style.opacity = "1";
         }
-
         function eclipse_stop() {
           document.getElementById('eclipse_image').style.opacity = "0";
         }
@@ -442,7 +418,6 @@
         function shinobi_start() {
           document.getElementById('shinobi_image').style.opacity = "1";
         }
-
         function shinobi_stop() {
           document.getElementById('shinobi_image').style.opacity = "0";
         }
@@ -454,7 +429,6 @@
         <span class="papertitle">SHINOBI: Shape and Illumination using Neural Object Decomposition via BRDF Optimization In-the-Wild</span>
       </a>
       <br>
-			
 			<a href="https://uni-tuebingen.de/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/computergrafik/lehrstuhl/mitarbeiter/andreas-engelhardt/">Andreas Engelhardt</a>, 
 			<a href="https://amitraj93.github.io/">Amit Raj</a>, 
 			<a href="https://markboss.me/">Mark Boss</a>, 
@@ -480,8 +454,6 @@
       </p>
     </td>
   </tr>
-	
-	
     <tr onmouseout="recon_stop()" onmouseover="recon_start()" bgcolor="#ffffd0">
       <td style="padding:20px;width:25%;vertical-align:middle">
         <div class="one">
@@ -495,7 +467,6 @@
           function recon_start() {
             document.getElementById('recon_image').style.opacity = "1";
           }
-
           function recon_stop() {
             document.getElementById('recon_image').style.opacity = "0";
           }
@@ -545,7 +516,6 @@
       function difsurvey_start() {
         document.getElementById('difsurvey_image').style.opacity = "1";
       }
-
       function difsurvey_stop() {
         document.getElementById('difsurvey_image').style.opacity = "0";
       }
@@ -585,7 +555,6 @@
     </p>
   </td>
 </tr>          
-
     <tr onmouseout="camp_stop()" onmouseover="camp_start()">
       <td style="padding:20px;width:25%;vertical-align:middle">
         <div class="one">
@@ -599,7 +568,6 @@
           function camp_start() {
             document.getElementById('camp_image').style.opacity = "1";
           }
-
           function camp_stop() {
             document.getElementById('camp_image').style.opacity = "0";
           }
@@ -628,8 +596,6 @@
         </p>
       </td>
     </tr>
-
-    
       <tr onmouseout="zipnerf_stop()" onmouseover="zipnerf_start()"  bgcolor="#ffffd0">
         <td style="padding:20px;width:25%;vertical-align:middle">
           <div class="one">
@@ -643,7 +609,6 @@
             function zipnerf_start() {
               document.getElementById('zipnerf_image').style.opacity = "1";
             }
-
             function zipnerf_stop() {
               document.getElementById('zipnerf_image').style.opacity = "0";
             }
@@ -674,8 +639,6 @@
           </p>
         </td>
       </tr>
-      
-      
       <tr onmouseout="db3d_stop()" onmouseover="db3d_start()">
         <td style="padding:20px;width:25%;vertical-align:middle">
           <div class="one">
@@ -689,7 +652,6 @@
             function db3d_start() {
               document.getElementById('db3d_image').style.opacity = "1";
             }
-
             function db3d_stop() {
               document.getElementById('db3d_image').style.opacity = "0";
             }
@@ -714,9 +676,6 @@
           <p>Combining DreamBooth (personalized text-to-image) and DreamFusion (text-to-3D) yields high-quality, subject-specific 3D assets with text-driven modifications</p>
         </td>
       </tr>
-
-      
-
       <tr onmouseout="bakedsdf_stop()" onmouseover="bakedsdf_start()">
         <td style="padding:20px;width:25%;vertical-align:middle">
           <div class="one">
@@ -730,7 +689,6 @@
             function bakedsdf_start() {
               document.getElementById('bakedsdf_image').style.opacity = "1";
             }
-
             function bakedsdf_stop() {
               document.getElementById('bakedsdf_image').style.opacity = "0";
             }
@@ -764,8 +722,6 @@
           </p>
         </td>
       </tr>
-
-
       <tr onmouseout="merf_stop()" onmouseover="merf_start()">
         <td style="padding:20px;width:25%;vertical-align:middle">
           <div class="one">
@@ -779,7 +735,6 @@
             function merf_start() {
               document.getElementById('merf_image').style.opacity = "1";
             }
-
             function merf_stop() {
               document.getElementById('merf_image').style.opacity = "0";
             }
@@ -813,9 +768,6 @@
           </p>
         </td>
       </tr>
-
-
-
       <tr onmouseout="alignerf_stop()" onmouseover="alignerf_start()">
         <td style="padding:20px;width:25%;vertical-align:middle">
           <div class="one">
@@ -827,7 +779,6 @@
             function alignerf_start() {
               document.getElementById('alignerf_image').style.opacity = "1";
             }
-
             function alignerf_stop() {
               document.getElementById('alignerf_image').style.opacity = "0";
             }
@@ -872,7 +823,6 @@
         function dreamfusion_start() {
           document.getElementById('dreamfusion_image').style.opacity = "1";
         }
-
         function dreamfusion_stop() {
           document.getElementById('dreamfusion_image').style.opacity = "0";
         }
@@ -914,7 +864,6 @@
       function guandao_start() {
         document.getElementById('guandao_image').style.opacity = "1";
       }
-
       function guandao_stop() {
         document.getElementById('guandao_image').style.opacity = "0";
       }
@@ -939,7 +888,6 @@
     </p>
   </td>
   </tr>
-
             <tr onmouseout="mira_stop()" onmouseover="mira_start()">
               <td style="padding:20px;width:25%;vertical-align:middle">
                 <div class="one">
@@ -951,7 +899,6 @@
                   function mira_start() {
                     document.getElementById('mira_image').style.opacity = "1";
                   }
-
                   function mira_stop() {
                     document.getElementById('mira_image').style.opacity = "0";
                   }
@@ -979,7 +926,6 @@
                 </p>
               </td>
             </tr>		
-            
             <tr onmouseout="samurai_stop()" onmouseover="samurai_start()">
               <td style="padding:20px;width:25%;vertical-align:middle">
                 <div class="one">
@@ -991,7 +937,6 @@
                   function samurai_start() {
                     document.getElementById('samurai_image').style.opacity = "1";
                   }
-
                   function samurai_stop() {
                     document.getElementById('samurai_image').style.opacity = "0";
                   }
@@ -1023,7 +968,6 @@
                 </p>
               </td>
             </tr>		
-
             <tr onmouseout="pnf_stop()" onmouseover="pnf_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
             <div class="one">
@@ -1035,7 +979,6 @@
             function pnf_start() {
               document.getElementById('pnf_image').style.opacity = "1";
             }
-
             function pnf_stop() {
               document.getElementById('pnf_image').style.opacity = "0";
             }
@@ -1061,8 +1004,6 @@
             </p>
             </td>
             </tr> 
-
-
             <tr onmouseout="malle_stop()" onmouseover="malle_start()">
               <td style="padding:20px;width:25%;vertical-align:middle">
                 <div class="one">
@@ -1074,7 +1015,6 @@
                   function malle_start() {
                     document.getElementById('malle_image').style.opacity = "1";
                   }
-
                   function malle_stop() {
                     document.getElementById('malle_image').style.opacity = "0";
                   }
@@ -1104,7 +1044,6 @@
                 </p>
               </td>
             </tr>
-            
             <tr onmouseout="nerfsuper_stop()" onmouseover="nerfsuper_start()">
               <td style="padding:20px;width:25%;vertical-align:middle">
                 <div class="one">
@@ -1118,7 +1057,6 @@
                   function nerfsuper_start() {
                     document.getElementById('nerfsuper_image').style.opacity = "1";
                   }
-
                   function nerfsuper_stop() {
                     document.getElementById('nerfsuper_image').style.opacity = "0";
                   }
@@ -1148,7 +1086,6 @@
                 <p>NeRF works better than RGB-D cameras or multi-view stereo when learning object descriptors.</p>
               </td>
             </tr>
-
             <tr onmouseout="refnerf_stop()" onmouseover="refnerf_start()"  bgcolor="#ffffd0">
               <td style="padding:20px;width:25%;vertical-align:middle">
                 <div class="one">
@@ -1162,7 +1099,6 @@
                   function refnerf_start() {
                     document.getElementById('refnerf_image').style.opacity = "1";
                   }
-
                   function refnerf_stop() {
                     document.getElementById('refnerf_image').style.opacity = "0";
                   }
@@ -1192,7 +1128,6 @@
                   <p>Explicitly modeling reflections in NeRF produces realistic shiny surfaces and accurate surface normals, and lets you edit materials.</p>
                 </td>
               </tr>
-              
             <tr onmouseout="mip360_stop()" onmouseover="mip360_start()"  bgcolor="#ffffd0">
               <td style="padding:20px;width:25%;vertical-align:middle">
                 <div class="one">
@@ -1206,7 +1141,6 @@
                   function mip360_start() {
                     document.getElementById('mip360_image').style.opacity = "1";
                   }
-
                   function mip360_stop() {
                     document.getElementById('mip360_image').style.opacity = "0";
                   }
@@ -1235,7 +1169,6 @@
                 <p>mip-NeRF can be extended to produce realistic results on unbounded scenes.</p>
               </td>
             </tr> 
-
             <tr onmouseout="rawnerf_stop()" onmouseover="rawnerf_start()"  bgcolor="#ffffd0">
               <td style="padding:20px;width:25%;vertical-align:middle">
                 <div class="one">
@@ -1249,7 +1182,6 @@
                   function rawnerf_start() {
                     document.getElementById('rawnerf_image').style.opacity = "1";
                   }
-
                   function rawnerf_stop() {
                     document.getElementById('rawnerf_image').style.opacity = "0";
                   }
